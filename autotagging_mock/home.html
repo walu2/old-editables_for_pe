@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Business Css Template</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"/></script>
+<script type="text/javascript" charset="utf-8" src="AutoTagging.js" /></script>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function() {
+	AutoTagging.init()
+})
+</script>
+<style type="text/css" media="screen">
+	.hover {
+		background-image: url('u58_normal.png');
+	}
+	.mini_description {
+		background-image: url('u60_normal.png');
+		font-family:Arial;
+		font-size:10px;
+		font-weight:normal;
+		font-style:normal;
+		text-decoration:none;
+		color:#FFFFFF;
+		position: absolute;
+		z-index: 10000;
+	}
+	
+	.element_submenu {
+	 	background-image: url('u119_normal.png');
+	    
+		left: -3px;
+		top: -3px;
+		width: 422px;
+		height: 41px;
+		
+		position: absolute;
+	    z-index: 10000;
+	
+	    vertical-align: center;
+	
+	}
+	
+	.element_submenu a {
+		margin-left: 20px;
+	}
+	
+	div.button_container {
+		left: 38px;
+		top: 102px;
+		width: 74px;
+		height: 23px;
+	}
+	
+	.button {
+		background-image: url('u22_normal.png');
+		left: -3px;
+		top: -3px;
+		width: 96px;
+		height: 41px;
+			
+	}
+	
+</style>
+</head>
+
+<body>
+<div id="topheader"></div>
+<div id="main_container">
+   <span id="mini_description" class="mini_description" style="display: none">Div a</span>
+   <div id="raw_element_submenu" class="element_submenu" style="display: none">
+
+	 <a class="button auttag_btn" id="editable_button" style="display: none;font-family:Arial;font-size:11px;font-weight:bold;font-style:normal;text-decoration:none;color:#FFFFFF;">
+		Editable
+	</a>
+	 <a class="button auttag_btn" id="clear_button" style="display: none;font-family:Arial;font-size:11px;font-weight:bold;font-style:normal;text-decoration:none;color:#FFFFFF;">Clear button</a>
+	 
+	 <input type="checkbox" id="advanced_checkbox"  style="display: none"/><label id="advanced_label"  style="display: none">Advanced</label> 
+	 <select id="advanced_options_select" style="display: none">
+		<option id="DEFAULT">Default</option>
+		<option value="EDIT_AND_REPEAT">Edit & Repeat</option>
+		<option value="REPEAT">Repeat (No Edit)</option>
+		<option value="PAGE_NAVIGATION">Page Navigation</option>
+	 </select>
+	<input type="checkbox" id="shared_checkbox"  style="display: none"/><label id="shared_label"  style="display: none">Shared</label> 
+    <input type="text" id="shared_input" size="3" maxlength="10" style="display: none" value="">
+  
+   </div>
+	<div id="subheader">
+    	<div class="logo"><a href="home.html"><img src="images/logo.gif" width="190" height="76" border="0" alt="" title="" /></a></div>
+    </div>	
+
+	<div id="menu">
+    	<ul>
+        	<li><a class="current" href="home.html" title="">Home</a></li>
+            <li class="separator"></li>
+			<li><a href="subpage.html" title="">About Us</a></li>
+            <li class="separator"></li>
+			<li><a href="subpage.html" title="">Our Services</a></li>
+            <li class="separator"></li>
+			<li><a href="subpage.html" title="">Client Testimonials</a></li>
+            <li class="separator"></li>
+			<li><a href="subpage.html" title="">Contact Us</a></li>
+            <li class="separator"></li>
+		</ul>
+    </div> 
+    
+    
+    <div id="center_content">
+    	<div class="middle_box">
+        	<div class="box1">        	
+            <div class="left_img"><img src="images/suitcase.png" border="0" alt="" title=""/></div>
+            <div class="left_p">
+            <h1 id="Hi">Welcome to our business company</h1>
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. " 
+            </div>
+            </div>
+
+        	<div class="box2">        	
+            <div class="left_img"><img src="images/statistics.png" border="0" alt="" title=""/></div>
+            <div class="left_p">
+            <h1>Best factor analysis</h1>
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. " 
+            </div>
+            </div>     
+        </div>
+    
+   
+   		<div class="left_content">
+ <h1>Businesses with a good track record</h1>       
+ <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+ </p>     
+ <h1 class="tag-edit tag-repeat tag-shared-32" id='oko'>Services List</h1> 
+ 
+ 			<div class="services_list">
+ 				<ul>
+                 	<li><a href="#">Duis aute irure dolor in reprehenderit in voluptate velit</a></li>
+                    <li><a href="#">Excepteur sint occaecat cupidatat non proident</a></li>
+                    <li><a href="#">Duis aute irure dolor in reprehenderit in voluptate velit</a></li>
+                    <li><a href="#">Excepteur sint occaecat cupidatat non proident</a></li>
+                    <li><a href="#">Duis aute irure dolor in reprehenderit in voluptate velit</a></li>
+                    <li><a href="#">Excepteur sint occaecat cupidatat non proident</a></li>
+ 				</ul>
+ 			</div>        
+        
+        </div>
+
+   		<div class="right_content">
+<h1>Management contract arrangements</h1>
+<p>
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+<p>
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+<p>
+<img src="images/1.jpg" border="0" alt="" title="" class="leftimg" />
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>        
+        
+        
+        
+        </div>   
+        
+        
+        <div class="wide_content">
+        
+        	<div class="sub_boxes">
+ 				<ul>
+                 	<li><a href="#">business marketing</a></li>
+                    <li><a href="#">management contract</a></li>
+                    <li><a href="#">international advertising</a></li>
+ 				</ul>     
+            </div>
+                  
+        </div>     
+
+    
+    </div>   
+
+     <div id="footer">
+     	<div class="footer_logo"><a href="home.html"><img src="images/footer_logo.gif" alt="" title="" border="0" /></a></div>
+     	<div class="copyright">
+        Business Company &copy; 2008
+        </div>
+    	<div class="footer_links">
+        <a href="#">Privacy Policy </a> |
+        <a href="#">Terms &amp; Conditions </a> |
+        <a href="#">Contact Us </a>
+        
+        </div>
+    
+    
+    </div>   
+ 
+</div>
+
+</body>
+</html>

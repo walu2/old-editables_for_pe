@@ -1,0 +1,221 @@
+body {
+background-color: #000;
+margin:0px;
+padding:0px;
+font: 11px  verdana, arial, helvetica;
+color: #918888;
+}
+h1{
+font-size:13px;
+font-weight:bold;
+font-family:Arial;
+color:#fff;
+padding:8px 0 4px 0;
+margin:0px 0 10px 0;
+border-bottom:1px  #CCCCCC dashed;
+}
+p{
+text-align:justify;
+}
+#main_container{
+width:900px;
+height:auto;
+margin:auto;
+background-color:#000;
+}
+#topheader{
+width: auto;
+height:27px;
+background:url(images/header_bg.jpg) repeat-x;
+}
+#subheader{
+width:900px;
+height:85px;
+}
+.logo{
+padding:5px 5px 5px 25px;
+}
+/*----------------------menu-------------------------*/
+#menu{
+width:822px;
+height:40px;
+margin:auto;
+background:url(images/menu_bg.jpg) no-repeat center;
+}
+#menu ul{
+list-style:none;padding:0px 0px 0px 20px;margin:0px;display:block;
+}
+#menu ul li{
+list-style:none;display:inline;float:left;width:auto;height: auto;padding:0px;line-height:35px;
+}
+#menu ul li a{
+height: auto;float:left;text-decoration:none;padding:0px 11px 0 11px;font-size:11px;color:#FFFFFF;
+}
+#menu ul li.separator{
+height:41px; width:5px;float:left;text-decoration:none;margin:5px 0px 0px 0px;background:url(images/separator.jpg) no-repeat right;
+}
+#menu ul li a:hover{
+width:auto;height:auto;text-decoration:none; color:#a87b50;
+}
+#menu ul li a.current{
+height:auto;float:left;text-decoration:none;padding:0px 11px 0 11px;font-size:11px;color:#a87b50;
+}
+
+/*--------------------------center_content--------------*/
+#center_content{
+width:900px;
+clear:both;
+height:auto;
+}
+.middle_box{
+width:822px;
+height:217px;
+margin:auto;
+padding:0px;
+background:url(images/middle_box_bg.jpg) no-repeat center; 
+}
+.photo_gallery{
+width:750px;
+margin:auto;
+padding-top:20px;
+}
+.gallery_navigation{
+width:750px;
+margin:auto;
+padding-top:10px;
+}
+.left_nav{
+width:31px;
+height:22px;
+float:left;
+}
+.right_nav{
+width:31px;
+height:22px;
+float:right;
+}
+.box1{
+width:370px;height: auto;padding:20px 10px 10px 10px;float:left;margin:0px;
+}
+.box2{
+width:400px;height: auto;padding:20px 10px 10px 10px;float:left;margin:0px;
+}
+.left_img{
+float:left;
+padding:10px;
+}
+.left_p{
+width:230px;
+float:left;
+padding:3px;
+margin:0px;
+text-align:justify;
+}
+/*---------------------left_content---------------------*/
+.left_content{
+width:360px;
+float:left;
+padding:10px 10px 10px 60px;
+}
+.services_list ul{
+list-style:none;
+display:block;
+margin:0px;
+padding:0px;
+}
+.services_list ul li{
+width:380px;
+height:20px;
+padding:2px 0 2px 0;
+}
+.services_list ul li a{
+width:350px;
+height:20px;
+color:#918888;
+text-decoration:none;
+padding-left:30px;
+background:url(images/bullet.gif) no-repeat left;
+background-position:5px 50%;
+}
+.services_list ul li a:hover{
+text-decoration:underline;
+}
+/*---------------------right_content---------------------*/
+.right_content{
+width:360px;
+float:left;
+padding:10px 10px 10px 30px;
+}
+img.leftimg{
+float:left;
+padding:0px 10px 10px 0px;
+}
+img.img_gallery{
+float:left;
+padding:10px;
+}
+.wide_content{
+width:830px;
+margin:auto;
+clear:both;
+padding:10px 0 10px 0px;
+}
+.wide_content_subpage{
+width:750px;
+margin:auto;
+clear:both;
+padding:10px 0 10px 0px;
+}
+.column{
+width:230px;
+float:left;
+padding:10px;
+}
+/*-----------------------------subbox------------*/
+.sub_boxes ul{
+list-style:none;padding:0px 0px 0px 20px;margin:0px;display:block;
+}
+.sub_boxes li{
+list-style:none;display:inline;float:left;width:256px;height: 92px;padding:0px;line-height:50px;
+}
+.sub_boxes ul li a{
+float:left; display:block;width:256px;height: 92px;text-decoration:none; padding-left:5%;font-size:16px;color:#c29e77; font-weight:bold;
+background:url(images/links_bg.gif) no-repeat center; background-position:0px 0px;
+}
+.sub_boxes ul li a:hover{
+background:url(images/links_bg_a.gif) no-repeat center; background-position:0px 0px;
+}
+.sub_boxes ul li a.current{
+height:auto;float:left;text-decoration:none;padding:0px 11px 0 11px;font-size:11px;color:#a87b50;
+}
+/*-----------------------------footer------------------*/
+#footer{
+clear:both;
+width: 822px;
+height:39px;
+margin:auto;
+color: #918888;
+background:url(images/footer_bg.jpg) no-repeat center;
+}
+.footer_logo{
+padding:5px 5px 5px 15px;
+float:left;
+}
+.copyright{
+float:left;
+padding-left:10px;
+padding-top:15px;
+}
+.footer_links{
+float:right;
+padding-right:10px;
+padding-top:15px;
+}
+.footer_links a{
+text-decoration:none;
+color: #999999;
+}
+.footer_links a:hover{
+text-decoration:underline;
+color: #666666;
+}
